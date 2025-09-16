@@ -1,6 +1,3 @@
-
-
-
 class bankaccount:
     def init(self, name, balance):
         self.name = name
@@ -41,5 +38,4 @@ class boat(vehicle):
 vehicles = [car(), plane(), boat()]
 for v in vehicles:
     v.move()
-
             
